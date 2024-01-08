@@ -151,8 +151,9 @@ main{
 /* Offer section style*/
 .offer{
     display: flex;
-    height: 450px;
+    height: 378px;
     align-items: center;
+    margin-bottom: 100px;
 }
 .offer-content{
     width: 400px;
@@ -179,12 +180,69 @@ main{
 }
 
 .offer-content1{
-    width: 550px;
-    height: 350px;
-    border-radius: 463px;
+    width: 435px;
+    height: 340px;
+    border-radius: 450px;
     border: 15px solid #F00;
-    margin-right: 30px;
+    
 }
-..offer-content1 img{
-    position: centre;
+.offer-content1 img{
+    padding-left: 22px;
+    padding-top: 20px;
+}
+.offer-content2{
+    width: 275px;
+    text-align: left;
+    margin-left: 40px;
+}
+.offer-content2 h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+}
+.offer-content2 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Portfolio section style */
+
+.portfolio{
+    margin-bottom: 100px;
+
+}
+
+.portfolio-item{
+    display: flow-root;
+}
+.portfolio h6{
+    color: #F00;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+}
+.portfolio h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.portfolio p{
+    width: 700px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+}
+#pi{
+    padding-right: 0px;  
+}
+.port-img{
+    max-width: 320px;
+    height: 339px;
+    padding-right: 10px;
 }
