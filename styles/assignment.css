@@ -82,6 +82,7 @@ main{
 
 /* welcome section style*/
 .welcome{
+    display: flex;
     width: 1320pz;
     height: 445px;
     background-image: url('../resources/Vectorrr.png');
@@ -92,7 +93,7 @@ main{
 .welcome-content{
     padding-left: 125px;
     padding-top: 60px;
-    padding-right: 400px;
+    padding-right: 50px;
 }
 .welcome-content h2{
     color: #FFF;
@@ -116,10 +117,17 @@ main{
     text-transform: uppercase;
     padding-left: 20px;
 }
+.welcome-image img{
+    width: 250px;
+    height: 330px;
+    padding-top: 50px;
+    padding-right: 100px;
+
+}
 
 /* join now section style */
 .join-now{
-    background-color: rgba(255, 0, 0, 0.030);
+    background-color: rgba(255, 0, 0, 0.03);
     height: 400px;
     margin-bottom: 100px;
 }
@@ -192,6 +200,7 @@ main{
 }
 .offer-content2{
     width: 275px;
+    height: 300px;
     text-align: left;
     margin-left: 40px;
 }
@@ -237,6 +246,7 @@ main{
     font-family: Inter;
     font-size: 15px;
     font-weight: 400;
+    padding-bottom: 20px;
 }
 #pi{
     padding-right: 0px;  
@@ -292,4 +302,69 @@ main{
     height: 50px;
     border: 0px;
     border-radius: 0px 20px 20px 0px;
+}
+
+/* footer section style */
+.footer{
+    width: 1320pz;
+    
+}
+.footer-item{
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-top: 50px;
+    background-color: #070211;
+}
+.address-foot{
+    display: flex;
+    padding-top: 60px;
+}
+.address-item{
+    padding-left: 100px;
+}
+.address-item p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+.address-phone{
+    padding-left: 350px;
+    text-align: center;
+}
+.address-phone p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    height: 15px;
+}
+#web{
+    padding-right: 10px;
+    text-align: center;
+}
+
+.social-icon{
+    text-align: center;
+    padding-top: 50px;
+}
+.social-icon a{
+    padding: 10px;
+}
+.all-right{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.all-right p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+#right{
+    padding-left: 100px;
+}
+#uns{
+    padding-left: 500px;  
 }
