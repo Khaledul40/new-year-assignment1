@@ -227,6 +227,9 @@ main{
 .portfolio-item{
     display: flow-root;
 }
+#item2{
+    padding-top: 10px;
+}
 .portfolio h6{
     color: #F00;
     font-family: Inter;
@@ -252,9 +255,9 @@ main{
     padding-right: 0px;  
 }
 .port-img{
-    max-width: 315px;
+    max-width: 310px;
     height: 339px;
-    padding-right: 8px;
+    padding-right: 10px;
 }
 
 /* Newsletter section style*/
