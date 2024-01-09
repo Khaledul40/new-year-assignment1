@@ -294,6 +294,7 @@ main{
     border-radius: 20px 0px 0px 20px;
 }
 .subscribe{
+    text-align: center;
     background-color: #F00;
     color: #FFF;
     font-size: 15px;
