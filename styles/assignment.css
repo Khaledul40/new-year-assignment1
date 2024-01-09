@@ -14,7 +14,7 @@ body{
 
 }
 .banner{
-    height: 445px;
+    height: 440px;
     background-image: url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +84,7 @@ main{
 .welcome{
     display: flex;
     width: 1320pz;
-    height: 445px;
+    height: 440px;
     background-image: url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
